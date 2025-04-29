@@ -1,5 +1,5 @@
 // VARIABLES & DATA Practice Questions
- // Problem 1: Create a variable of type string and try to add a number to add a number to it 
+// Problem 1: Create a variable of type string and try to add a number to add a number to it 
 let a = "Rutuja";
 let b = 25;
 console.log(a + b)
@@ -67,3 +67,13 @@ let age = 20;
 
 let canVote = age >= 18 ? "Yes" : "No";
 console.log(canVote);
+
+// EXPRESSIONS & CONDITIONS Practice Questions
+// Problem 1: Use logical operators to find whether the age of a person lies between 10 & 20
+let age = prompt("What is your age?")
+if(age>10 && age<20){
+console.log("Your age lies between 10 and 20")
+}
+else{
+console.log("Your age doesnt lies between 10 and 20")
+}
