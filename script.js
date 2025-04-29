@@ -96,5 +96,12 @@ alert("Your age is 15");
  console.log("Your age is not special")
 }
 // Problem 3: Write a JS program to find whether a number is divisible by either 2 or 3
-
+let num = prompt("What is your age?")
+num = Number.parseInt(age)
+if(num%2==0 && num%3==0){
+	alert("Your number is divisible by 2 and 3")
+}
+else {
+	alert("Your number is not divisible by 2 and 3")
+}
 
