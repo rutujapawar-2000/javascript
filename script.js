@@ -77,3 +77,23 @@ console.log("Your age lies between 10 and 20")
 else{
 console.log("Your age doesnt lies between 10 and 20")
 }
+// Problem 2: Demonstrate the use of Switch case statements in JS
+let age = prompt("What is your age?")
+switch(age){
+case "12":
+alert("Your age is 12");
+ break;
+ case "13":
+alert("Your age is 13");
+ break;
+ case "14":
+alert("Your age is 14");
+ break;
+ case "15":
+alert("Your age is 15");
+ break;
+ default: 
+ console.log("Your age is not special")
+}
+
+
