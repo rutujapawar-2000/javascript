@@ -95,5 +95,6 @@ alert("Your age is 15");
  default: 
  console.log("Your age is not special")
 }
+// Problem 3: Write a JS program to find whether a number is divisible by either 2 or 3
 
 
