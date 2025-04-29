@@ -1,0 +1,63 @@
+// VARIABLES & DATA Practice Questions
+ // Problem 1: Create a variable of type string and try to add a number to add a number to it 
+let a = "Rutuja";
+let b = 25;
+console.log(a + b)
+ // Problem 2: Use typeof operator to find a data type of the string in last question 
+console.log(typeof (a+b));
+ // Problem 3: Create a const object in JS. Can you change it to hold a number later? 
+const c = {
+name: "Rutik",
+section: 1,
+};
+console.log(c);
+ // c = 2000  //it will throw error 
+ // Problem 4: Try to add a new key to the const object in problem 3, where you able to do it? 
+c['Friend'] = "Somu"
+c['name'] = "Rutuja"
+console.log(c)
+ // Problem 5: Write a JS program to create a word meaning dictionary of 3 words 
+const dict = {
+who: "kon",
+What: "kay",
+When: "kdhi"
+}
+console.log(dict);
+console.log(dict.who);
+
+ // write a JS program to store a name, phone number, and marks of a student using object 
+let student = {
+name: "Rutuja",
+phoneNumber: "8855027404",
+marks: 64
+}
+console.log(student)
+
+// A basic program to explore SWITCH Statement
+let dayNumber = prompt("Enter a number between 1 and 7 to know the day:");
+
+switch (dayNumber) {
+  case "1":
+    alert("Sunday");
+    break;
+  case "2":
+    alert("Monday");
+    break;
+  case "3":
+    alert("Tuesday");
+    break;
+  case "4":
+    alert("Wednesday");
+    break;
+  case "5":
+    alert("Thursday");
+    break;
+  case "6":
+    alert("Friday");
+    break;
+  case "7":
+    alert("Saturday");
+    break;
+  default:
+    alert("Invalid input! Please enter a number between 1 and 7.");
+}
