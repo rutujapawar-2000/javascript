@@ -61,3 +61,9 @@ switch (dayNumber) {
   default:
     alert("Invalid input! Please enter a number between 1 and 7.");
 }
+
+// A basic program to explore TERNARY Operator
+let age = 20;
+
+let canVote = age >= 18 ? "Yes" : "No";
+console.log(canVote);
