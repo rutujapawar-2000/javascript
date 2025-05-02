@@ -104,4 +104,4 @@ if(num%2==0 && num%3==0){
 else {
 	alert("Your number is not divisible by 2 and 3")
 }
-
+// Problem 4:
