@@ -28,7 +28,7 @@ console.log(dict.who);
  // write a JS program to store a name, phone number, and marks of a student using object 
 let student = {
 name: "Rutuja",
-phoneNumber: "8855027404",
+phoneNumber: "1122334455",
 marks: 64
 }
 console.log(student)
