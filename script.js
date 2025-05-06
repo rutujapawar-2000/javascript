@@ -104,4 +104,5 @@ if(num%2==0 && num%3==0){
 else {
 	alert("Your number is not divisible by 2 and 3")
 }
-// Problem 4:
+// Problem 4: Write a JS program to find whether a number is divisible by either 2 or 3
+
