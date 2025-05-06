@@ -131,6 +131,16 @@ for (let i = 0; i < n; i++){
 sum += (i + 1)
 }
 console.log("Sum of first " + n + " natural numbers is " + sum)
+// For...in loop
+// Print all keys and values of an object
+const person = {
+name: "Rutuja",
+age:25,
+city: "Pune"
+};
+for (let key in person) {
+console.log(key + ":", person[key]);
+}
 
 
 
