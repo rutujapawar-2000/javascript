@@ -141,7 +141,17 @@ city: "Pune"
 for (let key in person) {
 console.log(key + ":", person[key]);
 }
-
+// Print names and marks from an object
+let obj = {
+Rutuja: 50,
+Rutik: 60,
+Neha: 70,
+Minal: 80,
+Prasad: 90
+}
+for (let key in obj){
+console.log("Marks of " + key + " are " + obj[key])
+}
 
 
 
