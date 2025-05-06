@@ -119,6 +119,10 @@ console.log(a)
 
 // Loops
 // For loop
+//Program to print first 10 Natural numbers
+for (let i = 1; i <= 10; i++){
+console.log("Number:", i);
+} 
 // Program to add first n Natural Numbers
 let sum = 0
 let n = prompt("Enter the value of n");
