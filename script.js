@@ -152,6 +152,20 @@ Prasad: 90
 for (let key in obj){
 console.log("Marks of " + key + " are " + obj[key])
 }
+// For...of loop
+// Print each character of a string using for...of loop
+const name = "Riya";
+
+for (let char of name) {
+  console.log(char);
+}
+// Print each value of an array using for...of loop?
+const numbers = [10, 20, 30];
+
+for (let num of numbers) {
+  console.log(num);
+}
+
 
 
 
