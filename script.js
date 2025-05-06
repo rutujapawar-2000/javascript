@@ -113,7 +113,9 @@ console.log("Your number is divisible by 2")
 console.log("Your number is divisible by 3")
 }
 // Problem 5: Print "You can Drive" or "You cannot Drive" based on age being greater than 18 using ternary operator
-
+let age = 19
+let a = age > 18 ? "You can drive" : "You cannot drive"
+console.log(a)
 
 
 
