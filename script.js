@@ -1,4 +1,4 @@
-// VARIABLES & DATA Practice Questions
+// VARIABLES & DATA Types Practice Questions
 // Problem 1: Create a variable of type string and try to add a number to add a number to it 
 let a = "Rutuja";
 let b = 25;
