@@ -63,10 +63,11 @@ switch (dayNumber) {
 }
 
 // A basic program to explore TERNARY Operator
-let age = 20;
+let age = prompt("What is your age?");
+age = Number.parseInt(age);
 
 let canVote = age >= 18 ? "Yes" : "No";
-console.log(canVote);
+console.log("Can Vote:", canVote);
 
 // EXPRESSIONS & CONDITIONS Practice Questions
 // Problem 1: Use logical operators to find whether the age of a person lies between 10 & 20
