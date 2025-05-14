@@ -1,5 +1,5 @@
 // VARIABLES & DATA Types Practice Questions
-// Problem 1: Create a variable of type string and try to add a number to add a number to it 
+// Problem 1: Create a variable of type string and try to add a number to it 
 let a = "Rutuja";
 let b = 25;
 console.log(a + b)
