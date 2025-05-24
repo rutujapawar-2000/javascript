@@ -34,7 +34,7 @@ marks: 64
 console.log(student)
 
 // A basic program to explore SWITCH Statement
-let dayNumber = prompt("Enter a number between 1 and 7 to know the day:");
+let dayNumber = prompt("Enter a number between 1 to 7 to know the day:");
 
 switch (dayNumber) {
   case "1":
@@ -59,7 +59,7 @@ switch (dayNumber) {
     alert("Saturday");
     break;
   default:
-    alert("Invalid input! Please enter a number between 1 and 7.");
+    alert("Invalid input! Please enter a number between 1 to 7.");
 }
 
 // A basic program to explore TERNARY Operator
